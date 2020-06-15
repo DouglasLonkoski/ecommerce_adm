@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce_front",
+  "description": "ecommerce based node.js",
+  "main": "app.js",
+  "authors": [
+    "Douglas Lonkoski"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ecommerce",
+    "node.js",
+    "mogodb",
+    "ejs"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "1.9.1",
+    "font-awesome": "4.7.0"
+  }
+}
