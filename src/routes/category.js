@@ -1,8 +1,10 @@
 const express = require('express')
 const router = express.Router()
 
+// const isLoggedIn = require('./../services/auth/loggedin')
+
 router.get('/', require('./../services/category/index'))
-router.get('/new',require('./../services/category/new'))
+router.get('/new', require('./../services/category/new'))
 router.get('/:id', require('./../services/category/show'))
 router.post('/', require('./../services/category/create'))
 
